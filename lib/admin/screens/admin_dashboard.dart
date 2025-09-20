@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-class OwnerDashboard extends StatelessWidget {
-  const OwnerDashboard({super.key});
+class AdminDashboard extends StatelessWidget {
+  const AdminDashboard({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('CanTeen - Owner'),
+        title: const Text('CanTeen - Admin'),
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),
@@ -15,7 +15,7 @@ class OwnerDashboard extends StatelessWidget {
           )
         ],
       ),
-      body: const Center(child: Text('Owner Dashboard - Manage menu, process orders')),
+      body: const Center(child: Text('Admin Dashboard - Manage canteens & users')),
     );
   }
 }
