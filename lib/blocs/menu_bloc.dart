@@ -4,7 +4,7 @@ import 'package:equatable/equatable.dart';
 import 'package:dio/dio.dart' as dio;
 import '../blocs/menu_bloc.dart';  // Import MenuItem model
 import 'package:cms_flutter_app/services/api_service.dart';  // For API calls (add, update, delete, get menu)
-import '../models/menu.dart';
+import 'package:cms_flutter_app/src/models/menu.dart';
 import '../services/image_upload_service.dart';  // Optional: For handling image uploads (implement if needed)
 
 part 'menu_event.dart';

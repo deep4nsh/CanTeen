@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/menu.dart';
+import '../src/models/menu.dart';
 
 class CartProvider extends ChangeNotifier {
   Map<String, int> _cart = {};  // menuId -> quantity

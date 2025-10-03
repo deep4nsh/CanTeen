@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/*.dart';
-import '../models/canteen.dart';
-import '../models/menu.dart';
-import '../models/order.dart';  // Import models
+import '../src/models/canteen.dart';
+import '../src/models/menu.dart';
+import '../src/models/order.dart';  // Import models
 
 class ApiService {
   static final Dio _dio = Dio(BaseOptions(baseUrl: 'http://your-backend-url:5000/api'));

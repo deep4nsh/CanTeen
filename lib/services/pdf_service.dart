@@ -3,7 +3,7 @@ import 'package:pdf/widgets.dart' as pw;
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 
-import '../models/order.dart';
+import '../src/models/order.dart';
 
 class PDFService {
   static Future<String> generateBill(Order order, String userEmail) async {

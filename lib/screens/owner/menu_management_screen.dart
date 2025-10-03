@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../models/menu.dart';
+import '../../src/models/menu.dart';
 import 'package:cms_flutter_app/blocs/menu_bloc.dart';
 
 class MenuManagementScreen extends StatelessWidget {

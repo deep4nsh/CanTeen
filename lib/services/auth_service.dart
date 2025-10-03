@@ -1,7 +1,7 @@
 // lib/services/auth_service.dart
 import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../models/user.dart';
+import '../src/models/user.dart';
 import 'api_service.dart';  // Assuming ApiService is your base HTTP client with Dio
 import 'fcm_service.dart';  // To update FCM token after auth
 

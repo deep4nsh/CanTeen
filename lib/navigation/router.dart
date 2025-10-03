@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../screens/auth/login_screen.dart';
+  import '../screens/auth/login_screen.dart';
 import '../screens/user/browse_canteens_screen.dart';
 import '../screens/owner/menu_management_screen.dart';
 import '../screens/admin/admin_dashboard_screen.dart';

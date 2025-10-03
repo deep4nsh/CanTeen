@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../services/api_service.dart';
-import '../../models/canteen.dart';
+import '../../src/models/canteen.dart';
 import '../../providers/cart_provider.dart';  // Implement similar to AuthProvider for cart state
 
 class BrowseCanteensScreen extends StatefulWidget {

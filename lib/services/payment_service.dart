@@ -1,6 +1,6 @@
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:flutter/material.dart';
-import '../models/order.dart';
+import '../src/models/order.dart';
 
 class PaymentService {
   static final Razorpay _razorpay = Razorpay();
